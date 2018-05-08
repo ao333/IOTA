@@ -15,6 +15,8 @@ To run the server, go into server folder initialize project and run npm start:
     npm start
 Notice:  We have git-ignored file config_neo4j.js and config_mongo.js which contains connection username and password of our database in azure. Please ask for these two files and put them in server folder before you run the file to test.
 
+By default the server is available on http://127.0.0.1:3000/
+
 ## Database
 To begin database updating, go into the database folder:
 
@@ -40,7 +42,7 @@ IMPORTANT: if you would like to test the database functions, please modify the f
     const driver = neo4j.driver(uri, neo4j.auth.basic(user, password));  
     module.exports = driver;
 
-### config_mongo
+### config_mongo.js
 
 	let constr = {  
 	  'mongoUrl':'<url of mongodb>',  
