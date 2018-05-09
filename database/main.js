@@ -53,7 +53,7 @@ setTimeout(function(){
         }
       })
     }, 600000);
-  },);
+  });
 
 
 
