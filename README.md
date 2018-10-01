@@ -20,6 +20,8 @@ To run the server, go into server folder, initialize project and run npm start:
     npm start
 **IMPORTANT**:  There are two files, config_neo4j.js and config_mongo.js, in 'config' folder which contain connection username and password of our database. If these files are missing, please create them in 'config' folder following formats shown below.
 
+By default the server is available on http://127.0.0.1:3000/
+
 ## Database
 **in 'database' folder**
 To begin database updating, go into the database folder:
